@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication3</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication3.Controllers.PGPController.En(System.String,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            加密
+            </summary>
+            <param name="companyname">輸入加密用戶</param>
+            <param name="files">上傳文件</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.PGPController.De(System.String,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            解密
+            </summary>
+            <param name="password">輸入用戶密碼</param>
+            <param name="files">上傳解密文件</param>
+        </member>
+        <member name="T:Zip.ZZZ">
+            <summary>
+            递归遍历目录
+            </summary>
+        </member>
+        <member name="M:Zip.ZZZ.ZipDirectory(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            ZIP：压缩文件夹
+            add yuangang by 2016-06-13
+            </summary>
+            <param name="DirectoryToZip">需要压缩的文件夹（绝对路径）</param>
+            <param name="ZipedPath">压缩后的文件路径（绝对路径）</param>
+            <param name="ZipedFileName">压缩后的文件名称（文件名，默认 同源文件夹同名）</param>
+            <param name="IsEncrypt">是否加密（默认 不加密）</param>
+        </member>
+        <member name="M:Zip.ZZZ.ZipSetp(System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream,System.String)">
+            <summary>
+            递归遍历目录
+            add yuangang by 2016-06-13
+            </summary>
+        </member>
+    </members>
+</doc>

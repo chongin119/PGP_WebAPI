@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DZq2yrWqy4FAA1wNhVRmgnDZzo92lGJFD1C5w0QB6Gg=",
+  "Source": "PGP_WebAPI",
+  "BasePath": "_content/PGP_WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

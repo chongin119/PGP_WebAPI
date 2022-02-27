@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PGP_WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PGP_WebAPI.Controllers.PGPController.En(System.String,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            加密
+            </summary>
+            <param name="companyname">輸入加密用戶</param>
+            <param name="files">上傳文件</param>
+            <returns></returns>
+        </member>
+        <member name="M:PGP_WebAPI.Controllers.PGPController.De(System.String,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            解密
+            </summary>
+            <param name="company">輸入用戶</param>
+            <param name="files">上傳解密文件</param>
+        </member>
+        <member name="T:Zip.ZZZ">
+            <summary>
+            Zip類
+            </summary>
+        </member>
+        <member name="M:Zip.ZZZ.ZipDirectory(System.String,System.String,System.String)">
+            <summary>
+            Zip類的main方法
+            </summary>
+            <param name="DirectoryToZip"></param>
+            <param name="ZipedPath"></param>
+            <param name="ZipedFileName"></param>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
+    </members>
+</doc>
